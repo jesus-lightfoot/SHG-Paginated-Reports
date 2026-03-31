@@ -2507,546 +2507,6 @@ ORDER BY
       </Filters>
       <InterpretSubtotalsAsDetails>True</InterpretSubtotalsAsDetails>
     </DataSet>
-    <DataSet Name="Page4">
-      <Query>
-        <DataSourceName>SHGDev_SHGWarehouse04Sandbox</DataSourceName>
-        <QueryParameters>
-          <QueryParameter Name="ControlDate">
-            <Value>=Parameters!ControlDate.Value</Value>
-          </QueryParameter>
-        </QueryParameters>
-        <rd:DesignerState>
-          <QueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
-            <CommandType>DAX</CommandType>
-            <Type>Query</Type>
-            <QuerySpecification xsi:type="MDXQuerySpecification">
-              <Select>
-                <Items>
-                  <Item>
-                    <ID xsi:type="Level">
-                      <DimensionName>DimProperty</DimensionName>
-                      <HierarchyName>PropertyName</HierarchyName>
-                      <HierarchyUniqueName>[DimProperty].[PropertyName]</HierarchyUniqueName>
-                      <LevelName>PropertyName</LevelName>
-                      <UniqueName>[DimProperty].[PropertyName].[PropertyName]</UniqueName>
-                    </ID>
-                    <ItemCaption>PropertyName</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Prior_Day_Scheduled___Planned]</ColumnName>
-                    </ID>
-                    <ItemCaption>Prior_Day_Scheduled___Planned</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Prior_Day_Earned_Hrs]</ColumnName>
-                    </ID>
-                    <ItemCaption>Prior_Day_Earned_Hrs</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[WTD_Earned_Hrs]</ColumnName>
-                    </ID>
-                    <ItemCaption>WTD_Earned_Hrs</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Earned_Hrs]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Earned_Hrs</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[WTD_Scheduled___Planned]</ColumnName>
-                    </ID>
-                    <ItemCaption>WTD_Scheduled___Planned</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Scheduled___Planned]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Scheduled___Planned</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Productivity_Front_Office]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Productivity_Front_Office</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Productivity_Restaurant]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Productivity_Restaurant</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Productivity_Banquets]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Productivity_Banquets</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Productivity_Kitchen]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Productivity_Kitchen</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Productivity_Housekeeping]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Productivity_Housekeeping</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Productivity_Bar]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Productivity_Bar</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Hours_Actual_Labor]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Hours_Actual_Labor</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Labor_Hours_Financials]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Labor_Hours_Financials</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Yearly_Productivity_Budget_Front_Office]</ColumnName>
-                    </ID>
-                    <ItemCaption>Yearly_Productivity_Budget_Front_Office</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Yearly_Productivity_Budget_Housekeeping]</ColumnName>
-                    </ID>
-                    <ItemCaption>Yearly_Productivity_Budget_Housekeeping</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Yearly_Productivity_Budget_Restaurant]</ColumnName>
-                    </ID>
-                    <ItemCaption>Yearly_Productivity_Budget_Restaurant</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Yearly_Productivity_Budget_Banquets]</ColumnName>
-                    </ID>
-                    <ItemCaption>Yearly_Productivity_Budget_Banquets</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Yearly_Productivity_Budget_Kitchen]</ColumnName>
-                    </ID>
-                    <ItemCaption>Yearly_Productivity_Budget_Kitchen</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Yearly_Productivity_Budget_Bar]</ColumnName>
-                    </ID>
-                    <ItemCaption>Yearly_Productivity_Budget_Bar</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Var_to_Yearly_Productivity_Front_Office]</ColumnName>
-                    </ID>
-                    <ItemCaption>Var_to_Yearly_Productivity_Front_Office</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Var_to_Yearly_Productivity_Housekeeping]</ColumnName>
-                    </ID>
-                    <ItemCaption>Var_to_Yearly_Productivity_Housekeeping</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Var_to_Yearly_Productivity_Restaurant]</ColumnName>
-                    </ID>
-                    <ItemCaption>Var_to_Yearly_Productivity_Restaurant</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Var_to_Yearly_Productivity_Banquets]</ColumnName>
-                    </ID>
-                    <ItemCaption>Var_to_Yearly_Productivity_Banquets</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Var_to_Yearly_Productivity_Kitchen]</ColumnName>
-                    </ID>
-                    <ItemCaption>Var_to_Yearly_Productivity_Kitchen</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Var_to_Yearly_Productivity_Bar]</ColumnName>
-                    </ID>
-                    <ItemCaption>Var_to_Yearly_Productivity_Bar</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Actual___Standard]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Actual___Standard</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Prior_Day_Actual___Standard_Hours]</ColumnName>
-                    </ID>
-                    <ItemCaption>Prior_Day_Actual___Standard_Hours</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[WTD_Actual___Standard]</ColumnName>
-                    </ID>
-                    <ItemCaption>WTD_Actual___Standard</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Prior_Day_OT_percent]</ColumnName>
-                    </ID>
-                    <ItemCaption>Prior_Day_OT_percent</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[WTD_Night_Audit_Completed]</ColumnName>
-                    </ID>
-                    <ItemCaption>WTD_Night_Audit_Completed</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Two_Days_Ago_Checkin_Percent]</ColumnName>
-                    </ID>
-                    <ItemCaption>Two_Days_Ago_Checkin_Percent</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Prior_Day_Schedule_Publish_Percent]</ColumnName>
-                    </ID>
-                    <ItemCaption>Prior_Day_Schedule_Publish_Percent</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[Prior_Day_Forecast_Accuracy]</ColumnName>
-                    </ID>
-                    <ItemCaption>Prior_Day_Forecast_Accuracy</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[WTD_Forecast_Accuracy]</ColumnName>
-                    </ID>
-                    <ItemCaption>WTD_Forecast_Accuracy</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[MTD_Forecast_Accuracy]</ColumnName>
-                    </ID>
-                    <ItemCaption>MTD_Forecast_Accuracy</ItemCaption>
-                  </Item>
-                  <Item>
-                    <ID xsi:type="Column">
-                      <ColumnName>[WTD_Forecast_Volume_Entry]</ColumnName>
-                    </ID>
-                    <ItemCaption>WTD_Forecast_Volume_Entry</ItemCaption>
-                  </Item>
-                </Items>
-              </Select>
-              <AutoExecute>false</AutoExecute>
-              <From>Model</From>
-              <Filter>
-                <FilterItems />
-              </Filter>
-              <Calculations />
-              <Aggregates />
-              <QueryProperties />
-            </QuerySpecification>
-            <Query>
-              <Statement>// DAX Query
-DEFINE
-	VAR __DS0FilterTable = 
-		FILTER(
-			KEEPFILTERS(VALUES('DimControlDate'[Date])),
-			'DimControlDate'[Date] &gt;= DATEVALUE(@ControlDate) &amp;&amp;
-			'DimControlDate'[Date] &lt; DATEVALUE(@ControlDate)+ TIME(0,0,1)
-		)
-
-
-	
-	VAR __DS0Core = 
-		SUMMARIZECOLUMNS('DimProperty'[PropertyName],
-			__DS0FilterTable,
-			"Prior_Day_Scheduled___Planned", 'HEAPLabor Metrics'[Prior Day Scheduled / Planned],
-			"Prior_Day_Earned_Hrs", 'HEAPLabor Metrics'[Prior Day Earned Hrs],
-			"WTD_Earned_Hrs", 'HEAPLabor Metrics'[WTD Earned Hrs],
-			"MTD_Earned_Hrs", 'HEAPLabor Metrics'[MTD Earned Hrs],
-			"WTD_Scheduled___Planned", 'HEAPLabor Metrics'[WTD Scheduled / Planned],
-			"MTD_Scheduled___Planned", 'HEAPLabor Metrics'[MTD Scheduled / Planned],
-			"MTD_Productivity_Front_Office", 'HEAPLabor Metrics'[MTD Productivity Front Office],
-			"MTD_Productivity_Restaurant", 'HEAPLabor Metrics'[MTD Productivity Restaurant],
-			"MTD_Productivity_Banquets", 'HEAPLabor Metrics'[MTD Productivity Banquets],
-			"MTD_Productivity_Kitchen", 'HEAPLabor Metrics'[MTD Productivity Kitchen],
-			"MTD_Productivity_Housekeeping", 'HEAPLabor Metrics'[MTD Productivity Housekeeping],
-			"MTD_Productivity_Bar", 'HEAPLabor Metrics'[MTD Productivity Bar],
-			"MTD_Hours_Actual_Labor", 'HEAPLabor Metrics'[MTD Hours Actual Labor],
-			"MTD_Labor_Hours_Financials", 'Labor Metrics'[MTD Labor Hours Financials],
-			"Yearly_Productivity_Budget_Front_Office", 'HEAPLabor Metrics'[Yearly Productivity Budget Front Office],
-			"Yearly_Productivity_Budget_Housekeeping", 'HEAPLabor Metrics'[Yearly Productivity Budget Housekeeping],
-			"Yearly_Productivity_Budget_Restaurant", 'HEAPLabor Metrics'[Yearly Productivity Budget Restaurant],
-			"Yearly_Productivity_Budget_Banquets", 'HEAPLabor Metrics'[Yearly Productivity Budget Banquets],
-			"Yearly_Productivity_Budget_Kitchen", 'HEAPLabor Metrics'[Yearly Productivity Budget Kitchen],
-			"Yearly_Productivity_Budget_Bar", 'HEAPLabor Metrics'[Yearly Productivity Budget Bar],
-			"Var_to_Yearly_Productivity_Front_Office", 'HEAPLabor Metrics'[Var to Yearly Productivity Front Office],
-			"Var_to_Yearly_Productivity_Housekeeping", 'HEAPLabor Metrics'[Var to Yearly Productivity Housekeeping],
-			"Var_to_Yearly_Productivity_Restaurant", 'HEAPLabor Metrics'[Var to Yearly Productivity Restaurant],
-			"Var_to_Yearly_Productivity_Banquets", 'HEAPLabor Metrics'[Var to Yearly Productivity Banquets],
-			"Var_to_Yearly_Productivity_Kitchen", 'HEAPLabor Metrics'[Var to Yearly Productivity Kitchen],
-			"Var_to_Yearly_Productivity_Bar", 'HEAPLabor Metrics'[Var to Yearly Productivity Bar],
-"MTD_Actual___Standard", 'HEAPLabor Metrics'[MTD Actual / Standard],
-			"Prior_Day_Actual___Standard_Hours", 'HEAPLabor Metrics'[Prior Day Actual / Standard Hours],
-			"WTD_Actual___Standard", 'HEAPLabor Metrics'[WTD Actual / Standard],
-			"Prior_Day_OT_percent", 'HECompliance Metrics'[Prior Day OT percent], "WTD_Night_Audit_Completed", 'HECompliance Metrics'[WTD Night Audit Completed Percent],
-"Two_Days_Ago_Checkin_Percent", 'HECompliance Metrics'[Two Days Ago Checkin Percent],
-"Prior_Day_Schedule_Publish_Percent", 'HECompliance Metrics'[Prior Day Schedule Publish Percent],
-			"Prior_Day_Forecast_Accuracy", 'HEAPLabor Metrics'[Prior Day Forecast Accuracy],
-			"WTD_Forecast_Accuracy", 'HEAPLabor Metrics'[WTD Forecast Accuracy],
-			"MTD_Forecast_Accuracy", 'HEAPLabor Metrics'[MTD Forecast Accuracy],
-			"WTD_Forecast_Volume_Entry", 'HECompliance Metrics'[WTD Forecast Volume Entry]
-		)
-
-EVALUATE
-	__DS0Core</Statement>
-              <ParameterDefinitions>
-                <ParameterDefinition>
-                  <Name>ControlDate</Name>
-                  <DefaultValues>
-                    <DefaultValue>10/28/2024</DefaultValue>
-                  </DefaultValues>
-                  <Caption>ControlDate</Caption>
-                  <ParameterValuesQuery>
-                    <ParameterizedStatement>
-                      <ReferencedParameters />
-                    </ParameterizedStatement>
-                  </ParameterValuesQuery>
-                </ParameterDefinition>
-              </ParameterDefinitions>
-            </Query>
-          </QueryDefinition>
-        </rd:DesignerState>
-        <CommandText>// DAX Query
-DEFINE
-	VAR __DS0FilterTable = 
-		FILTER(
-			KEEPFILTERS(VALUES('DimControlDate'[Date])),
-			'DimControlDate'[Date] &gt;= DATEVALUE(@ControlDate) &amp;&amp;
-			'DimControlDate'[Date] &lt; DATEVALUE(@ControlDate)+ TIME(0,0,1)
-		)
-
-
-	
-	VAR __DS0Core = 
-		SUMMARIZECOLUMNS('DimProperty'[PropertyName],
-			__DS0FilterTable,
-			"Prior_Day_Scheduled___Planned", 'HEAPLabor Metrics'[Prior Day Scheduled / Planned],
-			"Prior_Day_Earned_Hrs", 'HEAPLabor Metrics'[Prior Day Earned Hrs],
-			"WTD_Earned_Hrs", 'HEAPLabor Metrics'[WTD Earned Hrs],
-			"MTD_Earned_Hrs", 'HEAPLabor Metrics'[MTD Earned Hrs],
-			"WTD_Scheduled___Planned", 'HEAPLabor Metrics'[WTD Scheduled / Planned],
-			"MTD_Scheduled___Planned", 'HEAPLabor Metrics'[MTD Scheduled / Planned],
-			"MTD_Productivity_Front_Office", 'HEAPLabor Metrics'[MTD Productivity Front Office],
-			"MTD_Productivity_Restaurant", 'HEAPLabor Metrics'[MTD Productivity Restaurant],
-			"MTD_Productivity_Banquets", 'HEAPLabor Metrics'[MTD Productivity Banquets],
-			"MTD_Productivity_Kitchen", 'HEAPLabor Metrics'[MTD Productivity Kitchen],
-			"MTD_Productivity_Housekeeping", 'HEAPLabor Metrics'[MTD Productivity Housekeeping],
-			"MTD_Productivity_Bar", 'HEAPLabor Metrics'[MTD Productivity Bar],
-			"MTD_Hours_Actual_Labor", 'HEAPLabor Metrics'[MTD Hours Actual Labor],
-			"MTD_Labor_Hours_Financials", 'Labor Metrics'[MTD Labor Hours Financials],
-			"Yearly_Productivity_Budget_Front_Office", 'HEAPLabor Metrics'[Yearly Productivity Budget Front Office],
-			"Yearly_Productivity_Budget_Housekeeping", 'HEAPLabor Metrics'[Yearly Productivity Budget Housekeeping],
-			"Yearly_Productivity_Budget_Restaurant", 'HEAPLabor Metrics'[Yearly Productivity Budget Restaurant],
-			"Yearly_Productivity_Budget_Banquets", 'HEAPLabor Metrics'[Yearly Productivity Budget Banquets],
-			"Yearly_Productivity_Budget_Kitchen", 'HEAPLabor Metrics'[Yearly Productivity Budget Kitchen],
-			"Yearly_Productivity_Budget_Bar", 'HEAPLabor Metrics'[Yearly Productivity Budget Bar],
-			"Var_to_Yearly_Productivity_Front_Office", 'HEAPLabor Metrics'[Var to Yearly Productivity Front Office],
-			"Var_to_Yearly_Productivity_Housekeeping", 'HEAPLabor Metrics'[Var to Yearly Productivity Housekeeping],
-			"Var_to_Yearly_Productivity_Restaurant", 'HEAPLabor Metrics'[Var to Yearly Productivity Restaurant],
-			"Var_to_Yearly_Productivity_Banquets", 'HEAPLabor Metrics'[Var to Yearly Productivity Banquets],
-			"Var_to_Yearly_Productivity_Kitchen", 'HEAPLabor Metrics'[Var to Yearly Productivity Kitchen],
-			"Var_to_Yearly_Productivity_Bar", 'HEAPLabor Metrics'[Var to Yearly Productivity Bar],
-"MTD_Actual___Standard", 'HEAPLabor Metrics'[MTD Actual / Standard],
-			"Prior_Day_Actual___Standard_Hours", 'HEAPLabor Metrics'[Prior Day Actual / Standard Hours],
-			"WTD_Actual___Standard", 'HEAPLabor Metrics'[WTD Actual / Standard],
-			"Prior_Day_OT_percent", 'HECompliance Metrics'[Prior Day OT percent], "WTD_Night_Audit_Completed", 'HECompliance Metrics'[WTD Night Audit Completed Percent],
-"Two_Days_Ago_Checkin_Percent", 'HECompliance Metrics'[Two Days Ago Checkin Percent],
-"Prior_Day_Schedule_Publish_Percent", 'HECompliance Metrics'[Prior Day Schedule Publish Percent],
-			"Prior_Day_Forecast_Accuracy", 'HEAPLabor Metrics'[Prior Day Forecast Accuracy],
-			"WTD_Forecast_Accuracy", 'HEAPLabor Metrics'[WTD Forecast Accuracy],
-			"MTD_Forecast_Accuracy", 'HEAPLabor Metrics'[MTD Forecast Accuracy],
-			"WTD_Forecast_Volume_Entry", 'HECompliance Metrics'[WTD Forecast Volume Entry]
-		)
-
-EVALUATE
-	__DS0Core</CommandText>
-      </Query>
-      <Fields>
-        <Field Name="PropertyName">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>DimProperty[PropertyName]</DataField>
-        </Field>
-        <Field Name="Prior_Day_Earned_Hrs">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Prior_Day_Earned_Hrs]</DataField>
-        </Field>
-        <Field Name="WTD_Earned_Hrs">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[WTD_Earned_Hrs]</DataField>
-        </Field>
-        <Field Name="MTD_Earned_Hrs">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Earned_Hrs]</DataField>
-        </Field>
-        <Field Name="Prior_Day_Scheduled___Planned">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Prior_Day_Scheduled___Planned]</DataField>
-        </Field>
-        <Field Name="WTD_Scheduled___Planned">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[WTD_Scheduled___Planned]</DataField>
-        </Field>
-        <Field Name="MTD_Scheduled___Planned">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Scheduled___Planned]</DataField>
-        </Field>
-        <Field Name="MTD_Productivity_Restaurant">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Productivity_Restaurant]</DataField>
-        </Field>
-        <Field Name="MTD_Productivity_Front_Office">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Productivity_Front_Office]</DataField>
-        </Field>
-        <Field Name="MTD_Productivity_Banquets">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Productivity_Banquets]</DataField>
-        </Field>
-        <Field Name="Yearly_Productivity_Budget_Front_Office">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Yearly_Productivity_Budget_Front_Office]</DataField>
-        </Field>
-        <Field Name="Yearly_Productivity_Budget_Housekeeping">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Yearly_Productivity_Budget_Housekeeping]</DataField>
-        </Field>
-        <Field Name="Yearly_Productivity_Budget_Restaurant">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Yearly_Productivity_Budget_Restaurant]</DataField>
-        </Field>
-        <Field Name="MTD_Hours_Actual_Labor">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Hours_Actual_Labor]</DataField>
-        </Field>
-        <Field Name="MTD_Productivity_Kitchen">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Productivity_Kitchen]</DataField>
-        </Field>
-        <Field Name="Yearly_Productivity_Budget_Banquets">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Yearly_Productivity_Budget_Banquets]</DataField>
-        </Field>
-        <Field Name="Yearly_Productivity_Budget_Kitchen">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Yearly_Productivity_Budget_Kitchen]</DataField>
-        </Field>
-        <Field Name="MTD_Productivity_Housekeeping">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Productivity_Housekeeping]</DataField>
-        </Field>
-        <Field Name="Yearly_Productivity_Budget_Bar">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Yearly_Productivity_Budget_Bar]</DataField>
-        </Field>
-        <Field Name="Var_to_Yearly_Productivity_Front_Office">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Var_to_Yearly_Productivity_Front_Office]</DataField>
-        </Field>
-        <Field Name="Var_to_Yearly_Productivity_Housekeeping">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Var_to_Yearly_Productivity_Housekeeping]</DataField>
-        </Field>
-        <Field Name="Var_to_Yearly_Productivity_Restaurant">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Var_to_Yearly_Productivity_Restaurant]</DataField>
-        </Field>
-        <Field Name="Var_to_Yearly_Productivity_Banquets">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Var_to_Yearly_Productivity_Banquets]</DataField>
-        </Field>
-        <Field Name="Var_to_Yearly_Productivity_Kitchen">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Var_to_Yearly_Productivity_Kitchen]</DataField>
-        </Field>
-        <Field Name="MTD_Productivity_Bar">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Productivity_Bar]</DataField>
-        </Field>
-        <Field Name="MTD_Labor_Hours_Financials">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Labor_Hours_Financials]</DataField>
-        </Field>
-        <Field Name="Var_to_Yearly_Productivity_Bar">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Var_to_Yearly_Productivity_Bar]</DataField>
-        </Field>
-        <Field Name="MTD_Actual___Standard">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Actual___Standard]</DataField>
-        </Field>
-        <Field Name="Prior_Day_Actual___Standard_Hours">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Prior_Day_Actual___Standard_Hours]</DataField>
-        </Field>
-        <Field Name="WTD_Actual___Standard">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[WTD_Actual___Standard]</DataField>
-        </Field>
-        <Field Name="Prior_Day_OT_percent">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Prior_Day_OT_percent]</DataField>
-        </Field>
-        <Field Name="WTD_Night_Audit_Completed">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[WTD_Night_Audit_Completed]</DataField>
-        </Field>
-        <Field Name="Two_Days_Ago_Checkin_Percent">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Two_Days_Ago_Checkin_Percent]</DataField>
-        </Field>
-        <Field Name="Prior_Day_Schedule_Publish_Percent">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Prior_Day_Schedule_Publish_Percent]</DataField>
-        </Field>
-        <Field Name="Prior_Day_Forecast_Accuracy">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[Prior_Day_Forecast_Accuracy]</DataField>
-        </Field>
-        <Field Name="WTD_Forecast_Accuracy">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[WTD_Forecast_Accuracy]</DataField>
-        </Field>
-        <Field Name="MTD_Forecast_Accuracy">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[MTD_Forecast_Accuracy]</DataField>
-        </Field>
-        <Field Name="WTD_Forecast_Volume_Entry">
-          <rd:TypeName>System.String</rd:TypeName>
-          <DataField>[WTD_Forecast_Volume_Entry]</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
     <DataSet Name="NarrativeData">
       <Query>
         <DataSourceName>SHGDev_SHGWarehouse04Sandbox</DataSourceName>
@@ -3240,6 +2700,194 @@ EVALUATE
         <Field Name="ID_Full_Month_LY_Total_Revenue_">
           <rd:TypeName>System.Double</rd:TypeName>
           <DataField>[Full_Month_LY_Total_Revenue]</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="Page4">
+      <Query>
+        <DataSourceName>SHGDev_SHGWarehouse04Sandbox</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="ControlDate">
+            <rd:UserDefined>true</rd:UserDefined>
+            <Value>=Parameters!ControlDate.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>// DAX Query
+DEFINE
+	VAR __DS0FilterTable = 
+		FILTER(
+			KEEPFILTERS(VALUES('DimControlDate'[Date])),
+			'DimControlDate'[Date] &gt;= DATEVALUE(@ControlDate) &amp;&amp;
+			'DimControlDate'[Date] &lt; DATEVALUE(@ControlDate)+ TIME(0,0,1)
+		)
+	
+	VAR __DS0Core = 
+		SUMMARIZECOLUMNS('DimProperty'[PropertyName],
+			__DS0FilterTable,
+			"MTD_Earned_Hrs", 'HEAPLabor Metrics'[MTD Earned Hrs],
+			"MTD_Scheduled___Planned", 'HEAPLabor Metrics'[MTD Scheduled / Planned],
+			"MTD_Productivity_Front_Office", 'HEAPLabor Metrics'[MTD Productivity Front Office],
+			"MTD_Productivity_Restaurant", 'HEAPLabor Metrics'[MTD Productivity Restaurant],
+			"MTD_Productivity_Banquets", 'HEAPLabor Metrics'[MTD Productivity Banquets],
+			"MTD_Forecast_Accuracy", 'HEAPLabor Metrics'[MTD Forecast Accuracy],
+			"MTD_Productivity_Kitchen", 'HEAPLabor Metrics'[MTD Productivity Kitchen],
+			"MTD_Productivity_Housekeeping", 'HEAPLabor Metrics'[MTD Productivity Housekeeping],
+			"MTD_Productivity_Bar", 'HEAPLabor Metrics'[MTD Productivity Bar],
+			"MTD_Hours_Actual_Labor", 'HEAPLabor Metrics'[MTD Hours Actual Labor],
+			"MTD_Labor_Hours_Financials", 'Labor Metrics'[MTD Labor Hours Financials],
+			"Yearly_Productivity_Budget_Front_Office", 'HEAPLabor Metrics'[Yearly Productivity Budget Front Office],
+			"Yearly_Productivity_Budget_Housekeeping", 'HEAPLabor Metrics'[Yearly Productivity Budget Housekeeping],
+			"Yearly_Productivity_Budget_Restaurant", 'HEAPLabor Metrics'[Yearly Productivity Budget Restaurant],
+			"Yearly_Productivity_Budget_Banquets", 'HEAPLabor Metrics'[Yearly Productivity Budget Banquets],
+			"Yearly_Productivity_Budget_Kitchen", 'HEAPLabor Metrics'[Yearly Productivity Budget Kitchen],
+			"Yearly_Productivity_Budget_Bar", 'HEAPLabor Metrics'[Yearly Productivity Budget Bar],
+			"Var_to_Yearly_Productivity_Front_Office", 'HEAPLabor Metrics'[Var to Yearly Productivity Front Office],
+			"Var_to_Yearly_Productivity_Housekeeping", 'HEAPLabor Metrics'[Var to Yearly Productivity Housekeeping],
+			"Var_to_Yearly_Productivity_Restaurant", 'HEAPLabor Metrics'[Var to Yearly Productivity Restaurant],
+			"Var_to_Yearly_Productivity_Banquets", 'HEAPLabor Metrics'[Var to Yearly Productivity Banquets],
+			"Var_to_Yearly_Productivity_Kitchen", 'HEAPLabor Metrics'[Var to Yearly Productivity Kitchen],
+			"Var_to_Yearly_Productivity_Bar", 'HEAPLabor Metrics'[Var to Yearly Productivity Bar],
+			"MTD_Actual___Standard", 'HEAPLabor Metrics'[MTD Actual / Standard],
+			"WTD_Night_Audit_Completed", 'HECompliance Metrics'[WTD Night Audit Completed Percent],
+			"Two_Days_Ago_Checkin_Percent", 'HECompliance Metrics'[Two Days Ago Checkin Percent],
+			"Prior_Day_Schedule_Publish_Percent", 'HECompliance Metrics'[Prior Day Schedule Publish Percent],
+			"WTD_Forecast_Accuracy", 'HEAPLabor Metrics'[WTD Forecast Accuracy],
+			"WTD_Forecast_Volume_Entry", 'HECompliance Metrics'[WTD Forecast Volume Entry],
+			"WTD_Scheduled___Planned", 'HEAPLabor Metrics'[WTD Scheduled / Planned],
+			"WTD_Earned_Hrs", 'HEAPLabor Metrics'[WTD Earned Hrs]
+		)
+
+EVALUATE
+	__DS0Core</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="PropertyName">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>[PropertyName]</DataField>
+        </Field>
+        <Field Name="MTD_Earned_Hrs">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Earned_Hrs]</DataField>
+        </Field>
+        <Field Name="MTD_Scheduled___Planned">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Scheduled___Planned]</DataField>
+        </Field>
+        <Field Name="MTD_Productivity_Front_Office">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Productivity_Front_Office]</DataField>
+        </Field>
+        <Field Name="MTD_Productivity_Restaurant">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Productivity_Restaurant]</DataField>
+        </Field>
+        <Field Name="MTD_Productivity_Banquets">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Productivity_Banquets]</DataField>
+        </Field>
+        <Field Name="MTD_Forecast_Accuracy">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Forecast_Accuracy]</DataField>
+        </Field>
+        <Field Name="MTD_Productivity_Kitchen">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Productivity_Kitchen]</DataField>
+        </Field>
+        <Field Name="MTD_Productivity_Housekeeping">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Productivity_Housekeeping]</DataField>
+        </Field>
+        <Field Name="MTD_Productivity_Bar">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Productivity_Bar]</DataField>
+        </Field>
+        <Field Name="MTD_Hours_Actual_Labor">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Hours_Actual_Labor]</DataField>
+        </Field>
+        <Field Name="MTD_Labor_Hours_Financials">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Labor_Hours_Financials]</DataField>
+        </Field>
+        <Field Name="Yearly_Productivity_Budget_Front_Office">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Yearly_Productivity_Budget_Front_Office]</DataField>
+        </Field>
+        <Field Name="Yearly_Productivity_Budget_Housekeeping">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Yearly_Productivity_Budget_Housekeeping]</DataField>
+        </Field>
+        <Field Name="Yearly_Productivity_Budget_Restaurant">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Yearly_Productivity_Budget_Restaurant]</DataField>
+        </Field>
+        <Field Name="Yearly_Productivity_Budget_Banquets">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Yearly_Productivity_Budget_Banquets]</DataField>
+        </Field>
+        <Field Name="Yearly_Productivity_Budget_Kitchen">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Yearly_Productivity_Budget_Kitchen]</DataField>
+        </Field>
+        <Field Name="Yearly_Productivity_Budget_Bar">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Yearly_Productivity_Budget_Bar]</DataField>
+        </Field>
+        <Field Name="Var_to_Yearly_Productivity_Front_Office">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Var_to_Yearly_Productivity_Front_Office]</DataField>
+        </Field>
+        <Field Name="Var_to_Yearly_Productivity_Housekeeping">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Var_to_Yearly_Productivity_Housekeeping]</DataField>
+        </Field>
+        <Field Name="Var_to_Yearly_Productivity_Restaurant">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Var_to_Yearly_Productivity_Restaurant]</DataField>
+        </Field>
+        <Field Name="Var_to_Yearly_Productivity_Banquets">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Var_to_Yearly_Productivity_Banquets]</DataField>
+        </Field>
+        <Field Name="Var_to_Yearly_Productivity_Kitchen">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Var_to_Yearly_Productivity_Kitchen]</DataField>
+        </Field>
+        <Field Name="Var_to_Yearly_Productivity_Bar">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Var_to_Yearly_Productivity_Bar]</DataField>
+        </Field>
+        <Field Name="MTD_Actual___Standard">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[MTD_Actual___Standard]</DataField>
+        </Field>
+        <Field Name="WTD_Night_Audit_Completed">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[WTD_Night_Audit_Completed]</DataField>
+        </Field>
+        <Field Name="Two_Days_Ago_Checkin_Percent">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Two_Days_Ago_Checkin_Percent]</DataField>
+        </Field>
+        <Field Name="Prior_Day_Schedule_Publish_Percent">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Prior_Day_Schedule_Publish_Percent]</DataField>
+        </Field>
+        <Field Name="WTD_Forecast_Accuracy">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[WTD_Forecast_Accuracy]</DataField>
+        </Field>
+        <Field Name="WTD_Forecast_Volume_Entry">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[WTD_Forecast_Volume_Entry]</DataField>
+        </Field>
+        <Field Name="WTD_Scheduled___Planned">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[WTD_Scheduled___Planned]</DataField>
+        </Field>
+        <Field Name="WTD_Earned_Hrs">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[WTD_Earned_Hrs]</DataField>
         </Field>
       </Fields>
     </DataSet>
@@ -10723,15 +10371,15 @@ EVALUATE
                         <TablixCell />
                         <TablixCell>
                           <CellContents>
-                            <Textbox Name="Textbox68">
-                              <rd:DefaultName>Textbox68</rd:DefaultName>
+                            <Textbox Name="Textbox165">
+                              <rd:DefaultName>Textbox165</rd:DefaultName>
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>Daily Check In Completion</Value>
+                                      <Value />
                                       <Style>
                                         <FontStyle>Normal</FontStyle>
                                         <FontSize>11pt</FontSize>
@@ -14657,7 +14305,7 @@ iif(
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=iif(IsNothing(Fields!Prior_Day_Schedule_Publish_Percent.Value),0,Fields!Prior_Day_Schedule_Publish_Percent.Value)</Value>
+                                      <Value />
                                       <Style>
                                         <Format>0%</Format>
                                         <Color>#333333</Color>
@@ -16210,7 +15858,7 @@ iif(
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!Prior_Day_OT_percent.Value</Value>
+                                      <Value />
                                       <Style>
                                         <Format>0%</Format>
                                         <Color>#333333</Color>
@@ -17710,7 +17358,6 @@ CStr(Fields!PropertyName.Value))&gt;-1,"Include","Exclude")</FilterExpression>
                     <Value>=iif(weekday(Parameters!ControlDate.Value) &gt; 4,
   iif(
 	(Fields!WTD_Night_Audit_Completed.Value &gt;= 1) 
-	And (Fields!Two_Days_Ago_Checkin_Percent.Value &gt;= 1) 
 	And (Fields!Prior_Day_Schedule_Publish_Percent.Value &gt;= 1)
 	AND (Fields!WTD_Forecast_Volume_Entry.Value &gt;= 1)
   , 1,0)

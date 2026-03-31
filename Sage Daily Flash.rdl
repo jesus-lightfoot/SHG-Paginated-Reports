@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:cl="http://schemas.microsoft.com/sqlserver/reporting/2010/01/componentdefinition" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily" xmlns:am="http://schemas.microsoft.com/sqlserver/reporting/authoringmetadata">
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
   <rd:ReportID>a0cacd5d-7f21-4d49-9ce4-9222004412ee</rd:ReportID>
@@ -9,9 +9,9 @@
     </am:CreatedBy>
     <am:UpdatedBy>
       <am:Name>PBIRB</am:Name>
-      <am:Version>15.7.1813.16</am:Version>
+      <am:Version>15.7.1815.334</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-02-25T22:31:48.1167005Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-03-31T16:30:26.3194662Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -14711,7 +14711,7 @@ iif(
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!Prior_Day_Earned_Hrs.Value</Value>
+                                      <Value />
                                       <Style>
                                         <Format>0%</Format>
                                         <Color>#333333</Color>
@@ -14757,111 +14757,21 @@ iif(
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
-                            <GaugePanel Name="GaugePanel3">
-                              <StateIndicators>
-                                <StateIndicator Name="Indicator1">
-                                  <GaugeInputValue>
-                                    <Value>=Fields!Prior_Day_Earned_Hrs.Value</Value>
-                                    <Multiplier>1</Multiplier>
-                                    <DataElementOutput>NoOutput</DataElementOutput>
-                                  </GaugeInputValue>
-                                  <TransformationType>None</TransformationType>
-                                  <TransformationScope>Tablix8</TransformationScope>
-                                  <MinimumValue>
-                                    <Value>NaN</Value>
-                                    <Multiplier>1</Multiplier>
-                                  </MinimumValue>
-                                  <MaximumValue>
-                                    <Value>NaN</Value>
-                                    <Multiplier>1</Multiplier>
-                                  </MaximumValue>
-                                  <IndicatorStyle>None</IndicatorStyle>
-                                  <IndicatorImage>
-                                    <Source>External</Source>
-                                    <Value />
-                                  </IndicatorImage>
-                                  <ScaleFactor>1</ScaleFactor>
-                                  <IndicatorStates>
-                                    <IndicatorState Name="TriangleDown">
-                                      <StartValue>
-                                        <Value>1.0001</Value>
-                                        <Multiplier>1</Multiplier>
-                                      </StartValue>
-                                      <EndValue>
-                                        <Value />
-                                        <Multiplier>1</Multiplier>
-                                      </EndValue>
-                                      <Color>#c0433a</Color>
-                                      <ScaleFactor>1</ScaleFactor>
-                                      <IndicatorStyle>TriangleDown</IndicatorStyle>
-                                      <IndicatorImage>
-                                        <Source>External</Source>
-                                        <Value />
-                                      </IndicatorImage>
-                                    </IndicatorState>
-                                    <IndicatorState Name="TriangleUp">
-                                      <StartValue>
-                                        <Value>-1</Value>
-                                        <Multiplier>1</Multiplier>
-                                      </StartValue>
-                                      <EndValue>
-                                        <Value>1</Value>
-                                        <Multiplier>1</Multiplier>
-                                      </EndValue>
-                                      <Color>#79c75b</Color>
-                                      <ScaleFactor>1</ScaleFactor>
-                                      <IndicatorStyle>TriangleUp</IndicatorStyle>
-                                      <IndicatorImage>
-                                        <Source>External</Source>
-                                        <Value />
-                                      </IndicatorImage>
-                                    </IndicatorState>
-                                  </IndicatorStates>
-                                  <Angle>0</Angle>
-                                  <StateDataElementName />
-                                  <rd:IconsSet>ThreeUpDownTriangles</rd:IconsSet>
-                                  <Style>
-                                    <Border>
-                                      <Style>None</Style>
-                                    </Border>
-                                    <ShadowOffset>0pt</ShadowOffset>
-                                  </Style>
-                                  <Top>4</Top>
-                                  <Left>4</Left>
-                                  <Height>92</Height>
-                                  <Width>92</Width>
-                                </StateIndicator>
-                              </StateIndicators>
-                              <AutoLayout>true</AutoLayout>
-                              <BackFrame>
-                                <Style>
-                                  <Border>
-                                    <Style>None</Style>
-                                  </Border>
-                                  <BackgroundColor>Gainsboro</BackgroundColor>
-                                  <BackgroundGradientType>None</BackgroundGradientType>
-                                  <BackgroundGradientEndColor>Gray</BackgroundGradientEndColor>
-                                  <BackgroundHatchType>None</BackgroundHatchType>
-                                  <ShadowOffset>0pt</ShadowOffset>
-                                </Style>
-                                <FrameBackground>
-                                  <Style>
-                                    <BackgroundColor>Silver</BackgroundColor>
-                                    <BackgroundGradientType>DiagonalLeft</BackgroundGradientType>
-                                    <BackgroundGradientEndColor>Gray</BackgroundGradientEndColor>
-                                    <BackgroundHatchType>None</BackgroundHatchType>
-                                  </Style>
-                                </FrameBackground>
-                                <FrameImage>
-                                  <Source>External</Source>
-                                  <Value />
-                                </FrameImage>
-                              </BackFrame>
-                              <TopImage>
-                                <Source>External</Source>
-                                <Value />
-                              </TopImage>
-                              <DataSetName>Page4</DataSetName>
+                            <Textbox Name="Textbox140">
+                              <rd:DefaultName>Textbox140</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style />
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
                               <Style>
                                 <Border>
                                   <Color>Gray</Color>
@@ -14888,8 +14798,12 @@ iif(
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
                               </Style>
-                            </GaugePanel>
+                            </Textbox>
                           </CellContents>
                         </TablixCell>
                         <TablixCell>
@@ -15284,7 +15198,7 @@ iif(
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!Prior_Day_Scheduled___Planned.Value</Value>
+                                      <Value />
                                       <Style>
                                         <Format>0%</Format>
                                         <Color>#333333</Color>
@@ -15330,111 +15244,21 @@ iif(
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
-                            <GaugePanel Name="GaugePanel7">
-                              <StateIndicators>
-                                <StateIndicator Name="Indicator1">
-                                  <GaugeInputValue>
-                                    <Value>=Fields!Prior_Day_Scheduled___Planned.Value</Value>
-                                    <Multiplier>1</Multiplier>
-                                    <DataElementOutput>NoOutput</DataElementOutput>
-                                  </GaugeInputValue>
-                                  <TransformationType>None</TransformationType>
-                                  <TransformationScope>Tablix8</TransformationScope>
-                                  <MinimumValue>
-                                    <Value>NaN</Value>
-                                    <Multiplier>1</Multiplier>
-                                  </MinimumValue>
-                                  <MaximumValue>
-                                    <Value>NaN</Value>
-                                    <Multiplier>1</Multiplier>
-                                  </MaximumValue>
-                                  <IndicatorStyle>None</IndicatorStyle>
-                                  <IndicatorImage>
-                                    <Source>External</Source>
-                                    <Value />
-                                  </IndicatorImage>
-                                  <ScaleFactor>1</ScaleFactor>
-                                  <IndicatorStates>
-                                    <IndicatorState Name="TriangleDown">
-                                      <StartValue>
-                                        <Value>1.00001</Value>
-                                        <Multiplier>1</Multiplier>
-                                      </StartValue>
-                                      <EndValue>
-                                        <Value />
-                                        <Multiplier>1</Multiplier>
-                                      </EndValue>
-                                      <Color>#c0433a</Color>
-                                      <ScaleFactor>1</ScaleFactor>
-                                      <IndicatorStyle>TriangleDown</IndicatorStyle>
-                                      <IndicatorImage>
-                                        <Source>External</Source>
-                                        <Value />
-                                      </IndicatorImage>
-                                    </IndicatorState>
-                                    <IndicatorState Name="TriangleUp">
-                                      <StartValue>
-                                        <Value>-1</Value>
-                                        <Multiplier>1</Multiplier>
-                                      </StartValue>
-                                      <EndValue>
-                                        <Value>1</Value>
-                                        <Multiplier>1</Multiplier>
-                                      </EndValue>
-                                      <Color>#79c75b</Color>
-                                      <ScaleFactor>1</ScaleFactor>
-                                      <IndicatorStyle>TriangleUp</IndicatorStyle>
-                                      <IndicatorImage>
-                                        <Source>External</Source>
-                                        <Value />
-                                      </IndicatorImage>
-                                    </IndicatorState>
-                                  </IndicatorStates>
-                                  <Angle>0</Angle>
-                                  <StateDataElementName />
-                                  <rd:IconsSet>ThreeUpDownTriangles</rd:IconsSet>
-                                  <Style>
-                                    <Border>
-                                      <Style>None</Style>
-                                    </Border>
-                                    <ShadowOffset>0pt</ShadowOffset>
-                                  </Style>
-                                  <Top>4</Top>
-                                  <Left>4</Left>
-                                  <Height>92</Height>
-                                  <Width>92</Width>
-                                </StateIndicator>
-                              </StateIndicators>
-                              <AutoLayout>true</AutoLayout>
-                              <BackFrame>
-                                <Style>
-                                  <Border>
-                                    <Style>None</Style>
-                                  </Border>
-                                  <BackgroundColor>Gainsboro</BackgroundColor>
-                                  <BackgroundGradientType>None</BackgroundGradientType>
-                                  <BackgroundGradientEndColor>Gray</BackgroundGradientEndColor>
-                                  <BackgroundHatchType>None</BackgroundHatchType>
-                                  <ShadowOffset>0pt</ShadowOffset>
-                                </Style>
-                                <FrameBackground>
-                                  <Style>
-                                    <BackgroundColor>Silver</BackgroundColor>
-                                    <BackgroundGradientType>DiagonalLeft</BackgroundGradientType>
-                                    <BackgroundGradientEndColor>Gray</BackgroundGradientEndColor>
-                                    <BackgroundHatchType>None</BackgroundHatchType>
-                                  </Style>
-                                </FrameBackground>
-                                <FrameImage>
-                                  <Source>External</Source>
-                                  <Value />
-                                </FrameImage>
-                              </BackFrame>
-                              <TopImage>
-                                <Source>External</Source>
-                                <Value />
-                              </TopImage>
-                              <DataSetName>Page4</DataSetName>
+                            <Textbox Name="Textbox146">
+                              <rd:DefaultName>Textbox146</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style />
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
                               <Style>
                                 <Border>
                                   <Color>Gray</Color>
@@ -15461,8 +15285,12 @@ iif(
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
                               </Style>
-                            </GaugePanel>
+                            </Textbox>
                           </CellContents>
                         </TablixCell>
                         <TablixCell>
@@ -15857,7 +15685,7 @@ iif(
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!Prior_Day_Forecast_Accuracy.Value</Value>
+                                      <Value />
                                       <Style>
                                         <Format>0%</Format>
                                         <Color>#333333</Color>
@@ -15903,130 +15731,21 @@ iif(
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
-                            <GaugePanel Name="GaugePanel10">
-                              <StateIndicators>
-                                <StateIndicator Name="Indicator1">
-                                  <GaugeInputValue>
-                                    <Value>=Fields!Prior_Day_Forecast_Accuracy.Value</Value>
-                                    <Multiplier>1</Multiplier>
-                                    <DataElementOutput>NoOutput</DataElementOutput>
-                                  </GaugeInputValue>
-                                  <TransformationType>None</TransformationType>
-                                  <TransformationScope>Tablix8</TransformationScope>
-                                  <MinimumValue>
-                                    <Value>NaN</Value>
-                                    <Multiplier>1</Multiplier>
-                                  </MinimumValue>
-                                  <MaximumValue>
-                                    <Value>NaN</Value>
-                                    <Multiplier>1</Multiplier>
-                                  </MaximumValue>
-                                  <IndicatorStyle>None</IndicatorStyle>
-                                  <IndicatorImage>
-                                    <Source>External</Source>
-                                    <Value />
-                                  </IndicatorImage>
-                                  <ScaleFactor>1</ScaleFactor>
-                                  <IndicatorStates>
-                                    <IndicatorState Name="TriangleDown">
-                                      <StartValue>
-                                        <Value />
-                                        <Multiplier>1</Multiplier>
-                                      </StartValue>
-                                      <EndValue>
-                                        <Value>0.8999999</Value>
-                                        <Multiplier>1</Multiplier>
-                                      </EndValue>
-                                      <Color>#c0433a</Color>
-                                      <ScaleFactor>1</ScaleFactor>
-                                      <IndicatorStyle>TriangleDown</IndicatorStyle>
-                                      <IndicatorImage>
-                                        <Source>External</Source>
-                                        <Value />
-                                      </IndicatorImage>
-                                    </IndicatorState>
-                                    <IndicatorState Name="TriangleUp">
-                                      <StartValue>
-                                        <Value>0.9</Value>
-                                        <Multiplier>1</Multiplier>
-                                      </StartValue>
-                                      <EndValue>
-                                        <Value>1.1</Value>
-                                        <Multiplier>1</Multiplier>
-                                      </EndValue>
-                                      <Color>#79c75b</Color>
-                                      <ScaleFactor>1</ScaleFactor>
-                                      <IndicatorStyle>TriangleUp</IndicatorStyle>
-                                      <IndicatorImage>
-                                        <Source>External</Source>
-                                        <Value />
-                                      </IndicatorImage>
-                                    </IndicatorState>
-                                    <IndicatorState Name="IndicatorState1">
-                                      <StartValue>
-                                        <Value>1.1</Value>
-                                        <Multiplier>1</Multiplier>
-                                        <DataElementOutput>NoOutput</DataElementOutput>
-                                      </StartValue>
-                                      <EndValue>
-                                        <Value />
-                                        <Multiplier>1</Multiplier>
-                                        <DataElementOutput>NoOutput</DataElementOutput>
-                                      </EndValue>
-                                      <Color>#c0433a</Color>
-                                      <ScaleFactor>1</ScaleFactor>
-                                      <IndicatorStyle>TriangleDown</IndicatorStyle>
-                                      <IndicatorImage>
-                                        <Source>External</Source>
-                                        <Value />
-                                      </IndicatorImage>
-                                    </IndicatorState>
-                                  </IndicatorStates>
-                                  <Angle>0</Angle>
-                                  <StateDataElementName />
-                                  <rd:IconsSet>ThreeUpDownTriangles</rd:IconsSet>
-                                  <Style>
-                                    <Border>
-                                      <Style>None</Style>
-                                    </Border>
-                                    <ShadowOffset>0pt</ShadowOffset>
-                                  </Style>
-                                  <Top>4</Top>
-                                  <Left>4</Left>
-                                  <Height>92</Height>
-                                  <Width>92</Width>
-                                </StateIndicator>
-                              </StateIndicators>
-                              <AutoLayout>true</AutoLayout>
-                              <BackFrame>
-                                <Style>
-                                  <Border>
-                                    <Style>None</Style>
-                                  </Border>
-                                  <BackgroundColor>Gainsboro</BackgroundColor>
-                                  <BackgroundGradientType>None</BackgroundGradientType>
-                                  <BackgroundGradientEndColor>Gray</BackgroundGradientEndColor>
-                                  <BackgroundHatchType>None</BackgroundHatchType>
-                                  <ShadowOffset>0pt</ShadowOffset>
-                                </Style>
-                                <FrameBackground>
-                                  <Style>
-                                    <BackgroundColor>Silver</BackgroundColor>
-                                    <BackgroundGradientType>DiagonalLeft</BackgroundGradientType>
-                                    <BackgroundGradientEndColor>Gray</BackgroundGradientEndColor>
-                                    <BackgroundHatchType>None</BackgroundHatchType>
-                                  </Style>
-                                </FrameBackground>
-                                <FrameImage>
-                                  <Source>External</Source>
-                                  <Value />
-                                </FrameImage>
-                              </BackFrame>
-                              <TopImage>
-                                <Source>External</Source>
-                                <Value />
-                              </TopImage>
-                              <DataSetName>Page4</DataSetName>
+                            <Textbox Name="Textbox152">
+                              <rd:DefaultName>Textbox152</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style />
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
                               <Style>
                                 <Border>
                                   <Color>Gray</Color>
@@ -16053,8 +15772,12 @@ iif(
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
                               </Style>
-                            </GaugePanel>
+                            </Textbox>
                           </CellContents>
                         </TablixCell>
                         <TablixCell>

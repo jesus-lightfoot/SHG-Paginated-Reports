@@ -7719,6 +7719,7 @@ EVALUATE
                 </ReportItems>
                 <KeepTogether>true</KeepTogether>
                 <Top>0.02932in</Top>
+                <Left>0.0486in</Left>
                 <Height>0.92361in</Height>
                 <Width>31.06553in</Width>
                 <ZIndex>1</ZIndex>
@@ -8191,7 +8192,7 @@ EVALUATE
                   </Filter>
                 </Filters>
                 <Top>1.06697in</Top>
-                <Left>0.24981in</Left>
+                <Left>0.29841in</Left>
                 <Height>1.51097in</Height>
                 <Width>13.5493in</Width>
                 <ZIndex>2</ZIndex>
@@ -8771,7 +8772,7 @@ EVALUATE
                 </ChartNoDataMessage>
                 <DataSetName>P1GraphRolling</DataSetName>
                 <Top>1.06697in</Top>
-                <Left>14.59911in</Left>
+                <Left>14.64771in</Left>
                 <Height>1.51097in</Height>
                 <Width>13.5493in</Width>
                 <ZIndex>3</ZIndex>
@@ -8786,7 +8787,7 @@ EVALUATE
             </ReportItems>
             <Top>0.70795in</Top>
             <Height>4.7446in</Height>
-            <Width>31.33296in</Width>
+            <Width>31.38156in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -9071,31 +9072,7 @@ EVALUATE
                   <Paragraph>
                     <TextRuns>
                       <TextRun>
-                        <Value>Monday - Thursday: Green when Night Audit and Daily Checkin at 100.</Value>
-                        <Style>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style />
-                  </Paragraph>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>Friday - Sunday: Green when Night Audit, Daily Checkin, and</Value>
-                        <Style>
-                          <FontSize>9pt</FontSize>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value> Schedules Published</Value>
-                        <Style>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Normal</FontWeight>
-                        </Style>
-                      </TextRun>
-                      <TextRun>
-                        <Value> at 100.</Value>
+                        <Value>Monday - Thursday: Green when Night Audit at 100. Friday - Sunday: Green when Night Audit and Schedules Published at 100.</Value>
                         <Style>
                           <FontSize>9pt</FontSize>
                         </Style>
@@ -9750,34 +9727,11 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </Border>
-                                <TopBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -10251,9 +10205,6 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>Solid</Style>
@@ -10261,22 +10212,15 @@ EVALUATE
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -10316,34 +10260,11 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </Border>
-                                <TopBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -11369,32 +11290,22 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
@@ -11430,32 +11341,22 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
@@ -11491,32 +11392,22 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
@@ -11552,32 +11443,22 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
@@ -11613,32 +11494,16 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
                                 </Border>
-                                <TopBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </BottomBorder>
                                 <LeftBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
@@ -11674,33 +11539,14 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
                                 </Border>
-                                <TopBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </BottomBorder>
                                 <LeftBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
                                 </LeftBorder>
-                                <RightBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1.5pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -12118,15 +11964,15 @@ EVALUATE
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
-                            <Textbox Name="Textbox130">
-                              <rd:DefaultName>Textbox49</rd:DefaultName>
+                            <Textbox Name="Textbox276">
+                              <rd:DefaultName>Textbox276</rd:DefaultName>
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>PD</Value>
+                                      <Value />
                                       <Style>
                                         <FontSize>11pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -12292,15 +12138,15 @@ EVALUATE
                         <TablixCell />
                         <TablixCell>
                           <CellContents>
-                            <Textbox Name="Textbox167">
-                              <rd:DefaultName>Textbox49</rd:DefaultName>
+                            <Textbox Name="Textbox273">
+                              <rd:DefaultName>Textbox273</rd:DefaultName>
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>PD</Value>
+                                      <Value />
                                       <Style>
                                         <FontSize>11pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -12466,15 +12312,15 @@ EVALUATE
                         <TablixCell />
                         <TablixCell>
                           <CellContents>
-                            <Textbox Name="Textbox179">
-                              <rd:DefaultName>Textbox49</rd:DefaultName>
+                            <Textbox Name="Textbox275">
+                              <rd:DefaultName>Textbox275</rd:DefaultName>
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>PD</Value>
+                                      <Value />
                                       <Style>
                                         <FontSize>11pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -12997,31 +12843,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13056,31 +12895,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13115,9 +12947,6 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -13169,31 +12998,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13228,31 +13050,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13287,9 +13102,6 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -13341,31 +13153,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13400,31 +13205,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13459,9 +13257,6 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -13513,31 +13308,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13572,31 +13360,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13631,9 +13412,6 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -13685,31 +13463,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13744,31 +13515,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13803,9 +13567,6 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -13857,31 +13618,24 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
@@ -13916,32 +13670,21 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
-                                  <Style>None</Style>
+                                  <Style>Solid</Style>
                                 </Border>
                                 <TopBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </TopBorder>
                                 <BottomBorder>
-                                  <Color>Black</Color>
-                                  <Style>Solid</Style>
                                   <Width>1.5pt</Width>
                                 </BottomBorder>
                                 <LeftBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
                                 </LeftBorder>
                                 <RightBorder>
                                   <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
                                 </RightBorder>
                                 <BackgroundColor>Silver</BackgroundColor>
                                 <VerticalAlign>Middle</VerticalAlign>
@@ -13975,9 +13718,6 @@ EVALUATE
                                   </Style>
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -15295,8 +15035,8 @@ iif(
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
-                            <Textbox Name="Prior_Day_Scheduled___Planned">
-                              <rd:DefaultName>Prior_Day_Scheduled___Planned</rd:DefaultName>
+                            <Textbox Name="Textbox271">
+                              <rd:DefaultName>Textbox271</rd:DefaultName>
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
@@ -15305,7 +15045,6 @@ iif(
                                     <TextRun>
                                       <Value />
                                       <Style>
-                                        <Format>0%</Format>
                                         <Color>#333333</Color>
                                       </Style>
                                     </TextRun>
@@ -15349,8 +15088,8 @@ iif(
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
-                            <Textbox Name="Textbox146">
-                              <rd:DefaultName>Textbox146</rd:DefaultName>
+                            <Textbox Name="Textbox274">
+                              <rd:DefaultName>Textbox274</rd:DefaultName>
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
@@ -15358,7 +15097,9 @@ iif(
                                   <TextRuns>
                                     <TextRun>
                                       <Value />
-                                      <Style />
+                                      <Style>
+                                        <FontFamily>Arial</FontFamily>
+                                      </Style>
                                     </TextRun>
                                   </TextRuns>
                                   <Style />
@@ -16647,34 +16388,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -16704,34 +16422,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -16763,34 +16458,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -16820,34 +16492,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -16877,34 +16526,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -16936,9 +16562,6 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
@@ -16973,34 +16596,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -17030,34 +16630,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -17089,9 +16666,6 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
@@ -17126,34 +16700,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -17183,34 +16734,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -17242,9 +16770,6 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
@@ -17279,34 +16804,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -17336,34 +16838,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -17395,9 +16874,6 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
@@ -17432,34 +16908,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -17489,34 +16942,11 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
                                   <Style>Solid</Style>
                                 </Border>
-                                <TopBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </TopBorder>
-                                <BottomBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </BottomBorder>
-                                <LeftBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </LeftBorder>
-                                <RightBorder>
-                                  <Color>DimGray</Color>
-                                  <Style>Solid</Style>
-                                  <Width>1pt</Width>
-                                </RightBorder>
                                 <BackgroundColor>White</BackgroundColor>
                                 <PaddingLeft>2pt</PaddingLeft>
                                 <PaddingRight>2pt</PaddingRight>
@@ -17548,9 +16978,6 @@ iif(
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
                               <Style>
                                 <Border>
                                   <Color>DimGray</Color>
@@ -17974,6 +17401,7 @@ iif(
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <Top>10.0084in</Top>
+            <Left>0.0486in</Left>
             <Height>2.59921in</Height>
             <Width>33.84911in</Width>
             <ZIndex>1</ZIndex>
@@ -21442,6 +20870,7 @@ The indications in the Prior Day section stand for the prior day of the prior da
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <Top>7.92806in</Top>
+            <Left>0.0486in</Left>
             <Height>2.03781in</Height>
             <Width>31.72753in</Width>
             <ZIndex>2</ZIndex>
@@ -21470,6 +20899,7 @@ The indications in the Prior Day section stand for the prior day of the prior da
               </Paragraph>
             </Paragraphs>
             <Top>0.04167in</Top>
+            <Left>0.0486in</Left>
             <Height>0.35195in</Height>
             <Width>2in</Width>
             <ZIndex>3</ZIndex>
@@ -21538,6 +20968,7 @@ The indications in the Prior Day section stand for the prior day of the prior da
               </Paragraph>
             </Paragraphs>
             <Top>0.39362in</Top>
+            <Left>0.0486in</Left>
             <Height>0.32166in</Height>
             <Width>10.34911in</Width>
             <ZIndex>4</ZIndex>
@@ -26246,6 +25677,7 @@ The indications in the Prior Day section stand for the prior day of the prior da
             </PageBreak>
             <KeepTogether>true</KeepTogether>
             <Top>5.48046in</Top>
+            <Left>0.0486in</Left>
             <Height>2.38819in</Height>
             <Width>31.72828in</Width>
             <ZIndex>5</ZIndex>
@@ -26259,7 +25691,7 @@ The indications in the Prior Day section stand for the prior day of the prior da
         <Height>13.73261in</Height>
         <Style />
       </Body>
-      <Width>33.84911in</Width>
+      <Width>33.89771in</Width>
       <Page>
         <PageHeight>20in</PageHeight>
         <PageWidth>32.5in</PageWidth>

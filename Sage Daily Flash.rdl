@@ -2724,38 +2724,42 @@ DEFINE
 	VAR __DS0Core = 
 		SUMMARIZECOLUMNS('DimProperty'[PropertyName],
 			__DS0FilterTable,
-			"MTD_Earned_Hrs", 'HEAPLabor Metrics'[MTD Earned Hrs],
-			"MTD_Scheduled___Planned", 'HEAPLabor Metrics'[MTD Scheduled / Planned],
-			"MTD_Productivity_Front_Office", 'HEAPLabor Metrics'[MTD Productivity Front Office],
-			"MTD_Productivity_Restaurant", 'HEAPLabor Metrics'[MTD Productivity Restaurant],
-			"MTD_Productivity_Banquets", 'HEAPLabor Metrics'[MTD Productivity Banquets],
-			"MTD_Forecast_Accuracy", 'HEAPLabor Metrics'[MTD Forecast Accuracy],
-			"MTD_Productivity_Kitchen", 'HEAPLabor Metrics'[MTD Productivity Kitchen],
-			"MTD_Productivity_Housekeeping", 'HEAPLabor Metrics'[MTD Productivity Housekeeping],
-			"MTD_Productivity_Bar", 'HEAPLabor Metrics'[MTD Productivity Bar],
-			"MTD_Hours_Actual_Labor", 'HEAPLabor Metrics'[MTD Hours Actual Labor],
-			"MTD_Labor_Hours_Financials", 'Labor Metrics'[MTD Labor Hours Financials],
-			"Yearly_Productivity_Budget_Front_Office", 'HEAPLabor Metrics'[Yearly Productivity Budget Front Office],
-			"Yearly_Productivity_Budget_Housekeeping", 'HEAPLabor Metrics'[Yearly Productivity Budget Housekeeping],
-			"Yearly_Productivity_Budget_Restaurant", 'HEAPLabor Metrics'[Yearly Productivity Budget Restaurant],
-			"Yearly_Productivity_Budget_Banquets", 'HEAPLabor Metrics'[Yearly Productivity Budget Banquets],
-			"Yearly_Productivity_Budget_Kitchen", 'HEAPLabor Metrics'[Yearly Productivity Budget Kitchen],
-			"Yearly_Productivity_Budget_Bar", 'HEAPLabor Metrics'[Yearly Productivity Budget Bar],
-			"Var_to_Yearly_Productivity_Front_Office", 'HEAPLabor Metrics'[Var to Yearly Productivity Front Office],
-			"Var_to_Yearly_Productivity_Housekeeping", 'HEAPLabor Metrics'[Var to Yearly Productivity Housekeeping],
-			"Var_to_Yearly_Productivity_Restaurant", 'HEAPLabor Metrics'[Var to Yearly Productivity Restaurant],
-			"Var_to_Yearly_Productivity_Banquets", 'HEAPLabor Metrics'[Var to Yearly Productivity Banquets],
-			"Var_to_Yearly_Productivity_Kitchen", 'HEAPLabor Metrics'[Var to Yearly Productivity Kitchen],
-			"Var_to_Yearly_Productivity_Bar", 'HEAPLabor Metrics'[Var to Yearly Productivity Bar],
-			"MTD_Actual___Standard", 'HEAPLabor Metrics'[MTD Actual / Standard],
-			"WTD_Night_Audit_Completed", 'HECompliance Metrics'[WTD Night Audit Completed Percent],
-			"Two_Days_Ago_Checkin_Percent", 'HECompliance Metrics'[Two Days Ago Checkin Percent],
-			"Prior_Day_Schedule_Publish_Percent", 'HECompliance Metrics'[Prior Day Schedule Publish Percent],
-			"WTD_Forecast_Accuracy", 'HEAPLabor Metrics'[WTD Forecast Accuracy],
-			"WTD_Forecast_Volume_Entry", 'HECompliance Metrics'[WTD Forecast Volume Entry],
-			"WTD_Scheduled___Planned", 'HEAPLabor Metrics'[WTD Scheduled / Planned],
-			"WTD_Earned_Hrs", 'HEAPLabor Metrics'[WTD Earned Hrs],
-			"WTD_Actual___Standard", 'HEAPLabor Metrics'[WTD Actual / Standard]
+"MTD_Earned_Hrs", 'HEAPLabor Metrics'[MTD Earned Hrs],
+"MTD_Scheduled___Planned", 'HEAPLabor Metrics'[MTD Scheduled / Planned],
+"MTD_Productivity_Front_Office", 'HEAPLabor Metrics'[MTD Productivity Front Office],
+"MTD_Productivity_Restaurant", 'HEAPLabor Metrics'[MTD Productivity Restaurant],
+"MTD_Productivity_Banquets", 'HEAPLabor Metrics'[MTD Productivity Banquets],
+"MTD_Forecast_Accuracy", 'HEAPLabor Metrics'[MTD Forecast Accuracy],
+"MTD_Productivity_Kitchen", 'HEAPLabor Metrics'[MTD Productivity Kitchen],
+"MTD_Productivity_Housekeeping", 'HEAPLabor Metrics'[MTD Productivity Housekeeping],
+"MTD_Productivity_Bar", 'HEAPLabor Metrics'[MTD Productivity Bar],
+"MTD_Hours_Actual_Labor", 'HEAPLabor Metrics'[MTD Hours Actual Labor],
+"Two_Days_Ago_Checkin_Percent", 'HECompliance Metrics'[Two Days Ago Checkin Percent],
+"MTD_Labor_Hours_Financials", 'Labor Metrics'[MTD Labor Hours Financials],
+"Yearly_Productivity_Budget_Front_Office", 'HEAPLabor Metrics'[Yearly Productivity Budget Front Office],
+"Yearly_Productivity_Budget_Housekeeping", 'HEAPLabor Metrics'[Yearly Productivity Budget Housekeeping],
+"Yearly_Productivity_Budget_Restaurant", 'HEAPLabor Metrics'[Yearly Productivity Budget Restaurant],
+"Yearly_Productivity_Budget_Banquets", 'HEAPLabor Metrics'[Yearly Productivity Budget Banquets],
+"Yearly_Productivity_Budget_Kitchen", 'HEAPLabor Metrics'[Yearly Productivity Budget Kitchen],
+"Yearly_Productivity_Budget_Bar", 'HEAPLabor Metrics'[Yearly Productivity Budget Bar],
+"Var_to_Yearly_Productivity_Front_Office", 'HEAPLabor Metrics'[Var to Yearly Productivity Front Office],
+"Var_to_Yearly_Productivity_Housekeeping", 'HEAPLabor Metrics'[Var to Yearly Productivity Housekeeping],
+"Var_to_Yearly_Productivity_Restaurant", 'HEAPLabor Metrics'[Var to Yearly Productivity Restaurant],
+"Var_to_Yearly_Productivity_Banquets", 'HEAPLabor Metrics'[Var to Yearly Productivity Banquets],
+"Var_to_Yearly_Productivity_Kitchen", 'HEAPLabor Metrics'[Var to Yearly Productivity Kitchen],
+"Var_to_Yearly_Productivity_Bar", 'HEAPLabor Metrics'[Var to Yearly Productivity Bar],
+"MTD_Actual___Standard", 'HEAPLabor Metrics'[MTD Actual / Standard],
+"WTD_Night_Audit_Completed", 'HECompliance Metrics'[WTD Night Audit Completed Percent],
+"Prior_Day_Schedule_Publish_Percent", 'HECompliance Metrics'[Prior Day Schedule Publish Percent],
+"WTD_Forecast_Accuracy", 'HEAPLabor Metrics'[WTD Forecast Accuracy],
+"WTD_Forecast_Volume_Entry", 'HECompliance Metrics'[WTD Forecast Volume Entry],
+"WTD_Scheduled___Planned", 'HEAPLabor Metrics'[WTD Scheduled / Planned],
+"WTD_Earned_Hrs", 'HEAPLabor Metrics'[WTD Earned Hrs],
+"WTD_Actual___Standard", 'HEAPLabor Metrics'[WTD Actual / Standard],
+"WTD_BC_Entry_Completed", 'HECompliance Metrics'[WTD B&amp;C Entry Completed],
+"WTD_Stayover_Take_Rate", 'HECompliance Metrics'[WTD Stayover Take Rate],
+"BC_Entry_Completed", 'HECompliance Metrics'[B&amp;C Entry Completed]
+		
 		)
 
 EVALUATE
@@ -2805,6 +2809,10 @@ EVALUATE
         <Field Name="MTD_Hours_Actual_Labor">
           <rd:TypeName>System.Double</rd:TypeName>
           <DataField>[MTD_Hours_Actual_Labor]</DataField>
+        </Field>
+        <Field Name="Two_Days_Ago_Checkin_Percent">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[Two_Days_Ago_Checkin_Percent]</DataField>
         </Field>
         <Field Name="MTD_Labor_Hours_Financials">
           <rd:TypeName>System.Double</rd:TypeName>
@@ -2866,10 +2874,6 @@ EVALUATE
           <rd:TypeName>System.Double</rd:TypeName>
           <DataField>[WTD_Night_Audit_Completed]</DataField>
         </Field>
-        <Field Name="Two_Days_Ago_Checkin_Percent">
-          <rd:TypeName>System.Double</rd:TypeName>
-          <DataField>[Two_Days_Ago_Checkin_Percent]</DataField>
-        </Field>
         <Field Name="Prior_Day_Schedule_Publish_Percent">
           <rd:TypeName>System.Double</rd:TypeName>
           <DataField>[Prior_Day_Schedule_Publish_Percent]</DataField>
@@ -2893,6 +2897,18 @@ EVALUATE
         <Field Name="WTD_Actual___Standard">
           <rd:TypeName>System.Double</rd:TypeName>
           <DataField>[WTD_Actual___Standard]</DataField>
+        </Field>
+        <Field Name="WTD_BC_Entry_Completed">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[WTD_BC_Entry_Completed]</DataField>
+        </Field>
+        <Field Name="WTD_Stayover_Take_Rate">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[WTD_Stayover_Take_Rate]</DataField>
+        </Field>
+        <Field Name="BC_Entry_Completed">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>[BC_Entry_Completed]</DataField>
         </Field>
       </Fields>
     </DataSet>
@@ -9224,6 +9240,9 @@ EVALUATE
                       <Width>0.7in</Width>
                     </TablixColumn>
                     <TablixColumn>
+                      <Width>1in</Width>
+                    </TablixColumn>
+                    <TablixColumn>
                       <Width>0.7in</Width>
                     </TablixColumn>
                     <TablixColumn>
@@ -9707,6 +9726,62 @@ EVALUATE
                         <TablixCell />
                         <TablixCell>
                           <CellContents>
+                            <Textbox Name="Textbox277">
+                              <rd:DefaultName>Textbox277</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontSize>11pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <Style>
+                                <Border>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </Border>
+                                <TopBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </TopBorder>
+                                <BottomBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </BottomBorder>
+                                <LeftBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </LeftBorder>
+                                <RightBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </RightBorder>
+                                <BackgroundColor>Silver</BackgroundColor>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
                             <Textbox Name="Textbox598">
                               <rd:DefaultName>Textbox598</rd:DefaultName>
                               <CanGrow>true</CanGrow>
@@ -10185,6 +10260,62 @@ EVALUATE
                         <TablixCell />
                         <TablixCell>
                           <CellContents>
+                            <Textbox Name="Textbox278">
+                              <rd:DefaultName>Textbox278</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontSize>11pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <Style>
+                                <Border>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </Border>
+                                <TopBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </TopBorder>
+                                <BottomBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </BottomBorder>
+                                <LeftBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </LeftBorder>
+                                <RightBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </RightBorder>
+                                <BackgroundColor>Silver</BackgroundColor>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
                             <Textbox Name="Textbox654">
                               <rd:DefaultName>Textbox654</rd:DefaultName>
                               <CanGrow>true</CanGrow>
@@ -10533,7 +10664,7 @@ EVALUATE
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value />
+                                      <Value>Banquet</Value>
                                       <Style>
                                         <FontStyle>Normal</FontStyle>
                                         <FontSize>11pt</FontSize>
@@ -11229,6 +11360,56 @@ EVALUATE
                                   <TextRuns>
                                     <TextRun>
                                       <Value>Variance</Value>
+                                      <Style>
+                                        <FontSize>11pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <TopBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </TopBorder>
+                                <LeftBorder>
+                                  <Color>DimGray</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </LeftBorder>
+                                <RightBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </RightBorder>
+                                <BackgroundColor>Silver</BackgroundColor>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
+                            <Textbox Name="Textbox279">
+                              <rd:DefaultName>Textbox279</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Stayover Take Rate</Value>
                                       <Style>
                                         <FontSize>11pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -12823,6 +13004,63 @@ EVALUATE
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
+                            <Textbox Name="Textbox280">
+                              <rd:DefaultName>Textbox280</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>WTD</Value>
+                                      <Style>
+                                        <FontSize>11pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <Style>
+                                <Border>
+                                  <Color>DimGray</Color>
+                                  <Style>Solid</Style>
+                                </Border>
+                                <TopBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </TopBorder>
+                                <BottomBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </BottomBorder>
+                                <LeftBorder>
+                                  <Color>DimGray</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </LeftBorder>
+                                <RightBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </RightBorder>
+                                <BackgroundColor>Silver</BackgroundColor>
+                                <VerticalAlign>Middle</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
                             <Textbox Name="Textbox204">
                               <rd:DefaultName>Textbox49</rd:DefaultName>
                               <CanGrow>true</CanGrow>
@@ -14120,7 +14358,7 @@ iif(
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=iif(IsNothing(Fields!WTD_Forecast_Volume_Entry.Value),0,Fields!WTD_Forecast_Volume_Entry.Value)</Value>
+                                      <Value>=iif(IsNothing(Fields!WTD_BC_Entry_Completed.Value), 0, Fields!WTD_BC_Entry_Completed.Value)</Value>
                                       <Style>
                                         <Format>0%</Format>
                                         <Color>#333333</Color>
@@ -16370,6 +16608,59 @@ iif(
                         </TablixCell>
                         <TablixCell>
                           <CellContents>
+                            <Textbox Name="Textbox281">
+                              <rd:DefaultName>Textbox281</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=iif(IsNothing(Fields!WTD_Stayover_Take_Rate.Value), 0, Fields!WTD_Stayover_Take_Rate.Value)</Value>
+                                      <Style>
+                                        <Color>#333333</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <Style>
+                                <Border>
+                                  <Color>Gray</Color>
+                                  <Style>Solid</Style>
+                                </Border>
+                                <TopBorder>
+                                  <Color>Gray</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </TopBorder>
+                                <BottomBorder>
+                                  <Color>Gray</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </BottomBorder>
+                                <LeftBorder>
+                                  <Color>Gray</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </LeftBorder>
+                                <RightBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1.5pt</Width>
+                                </RightBorder>
+                                <BackgroundColor>White</BackgroundColor>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </CellContents>
+                        </TablixCell>
+                        <TablixCell>
+                          <CellContents>
                             <Textbox Name="Yearly_Productivity_Budget_Front_Office">
                               <rd:DefaultName>Yearly_Productivity_Budget_Front_Office</rd:DefaultName>
                               <CanGrow>true</CanGrow>
@@ -17050,6 +17341,7 @@ iif(
                     <TablixMember />
                     <TablixMember />
                     <TablixMember />
+                    <TablixMember />
                   </TablixMembers>
                 </TablixColumnHierarchy>
                 <TablixRowHierarchy>
@@ -17356,7 +17648,6 @@ CStr(Fields!PropertyName.Value))&gt;-1,"Include","Exclude")</FilterExpression>
 ,
   iif(
   	(Fields!WTD_Night_Audit_Completed.Value &gt;= 1) 
-	And (Fields!Two_Days_Ago_Checkin_Percent.Value &gt;= 1)
 	AND (Fields!WTD_Forecast_Volume_Entry.Value &gt;= 1)
   ,1,0
   )
@@ -17390,7 +17681,7 @@ iif(
                 <Top>0.11891in</Top>
                 <Left>0.04911in</Left>
                 <Height>1.25in</Height>
-                <Width>33.8in</Width>
+                <Width>34.8in</Width>
                 <ZIndex>7</ZIndex>
                 <Style>
                   <Border>
@@ -17403,7 +17694,7 @@ iif(
             <Top>10.0084in</Top>
             <Left>0.0486in</Left>
             <Height>2.59921in</Height>
-            <Width>33.84911in</Width>
+            <Width>34.84911in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -25691,7 +25982,7 @@ The indications in the Prior Day section stand for the prior day of the prior da
         <Height>13.73261in</Height>
         <Style />
       </Body>
-      <Width>33.89771in</Width>
+      <Width>34.89771in</Width>
       <Page>
         <PageHeight>20in</PageHeight>
         <PageWidth>32.5in</PageWidth>
